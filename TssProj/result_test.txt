@@ -1,0 +1,60 @@
+__init__
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+greet
+cyclomatic_complexity: 1
+readability: 5.263399999999999
+----------
+__init__
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+bark
+cyclomatic_complexity: 1
+readability: 5.403900000000001
+----------
+add
+cyclomatic_complexity: 0
+readability: 5.403900000000001
+----------
+subtract
+cyclomatic_complexity: 0
+readability: 5.403900000000001
+----------
+multiply
+cyclomatic_complexity: 0
+readability: 5.403900000000001
+----------
+divide
+cyclomatic_complexity: 1
+readability: 5.498138571428572
+----------
+__init__
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+start
+cyclomatic_complexity: 1
+readability: 5.403900000000001
+----------
+stop
+cyclomatic_complexity: 1
+readability: 5.403900000000001
+----------
+__init__
+cyclomatic_complexity: 1
+readability: 5.4781999999999975
+----------
+deposit
+cyclomatic_complexity: 1
+readability: 5.463199999999998
+----------
+withdraw
+cyclomatic_complexity: 2
+readability: 5.200682857142857
+----------
+outside
+cyclomatic_complexity: 3
+readability: 3.8239353364963207
+----------

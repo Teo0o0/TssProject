@@ -1,0 +1,12 @@
+execute_script
+cyclomatic_complexity: 1
+readability: 4.600662637362638
+----------
+find_python_files
+cyclomatic_complexity: 0
+readability: 5.375252245254746
+----------
+outside
+cyclomatic_complexity: 2
+readability: 5.414400109890109
+----------
