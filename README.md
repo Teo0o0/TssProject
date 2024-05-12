@@ -16,6 +16,7 @@ Pentru problema de complexitate a taskului, folosim o rețea neurală preantrena
 În cazul limbajului Python, fișierul source.py parcurge folderul curent, generând câte un raport pentru fiecare fișier de tip .py găsit. <br>
 În cazul limbajului Java, fișierul java_worker/get_files.py parcurge folderul Tss_Test, ce conține două fișiere de tip .java, generate de ChatGPT, și scrie rapoarte pentru fiecare.<br>
 Rapoartele conțin primele două metrici discutate pentru fiecare funcție găsită în parte.<br>
+Link youtube : https://youtu.be/y6_tg_--yQ0
 
 
 
