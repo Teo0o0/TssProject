@@ -1,0 +1,4 @@
+main
+cyclomatic_complexity: 1
+readability: 5.571870686813188
+----------

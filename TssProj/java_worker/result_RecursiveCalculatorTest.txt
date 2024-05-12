@@ -1,0 +1,56 @@
+testFactorial
+cyclomatic_complexity: 1
+readability: 6.104490000000002
+----------
+testFibonacci
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+factorial
+cyclomatic_complexity: 2
+readability: 5.912765714285712
+----------
+fibonacci
+cyclomatic_complexity: 3
+readability: 5.877037828495035
+----------
+testAddition
+cyclomatic_complexity: 1
+readability: 6.104490000000002
+----------
+testSubtraction
+cyclomatic_complexity: 1
+readability: 6.104490000000002
+----------
+testMultiplication
+cyclomatic_complexity: 1
+readability: 6.104490000000002
+----------
+testDivision
+cyclomatic_complexity: 1
+readability: 6.104490000000002
+----------
+testDivideByZero
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+add
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+subtract
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+multiply
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+divide
+cyclomatic_complexity: 1
+readability: 6.3213000000000035
+----------
+main
+cyclomatic_complexity: 1
+readability: 5.874208571428573
+----------
