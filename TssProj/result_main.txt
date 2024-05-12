@@ -14,10 +14,6 @@ count_indents
 cyclomatic_complexity: 1
 readability: 5.596611428571428
 ----------
-calculate_rounded_ratio
-cyclomatic_complexity: 0
-readability: 4.860500000000001
-----------
 count_loops
 cyclomatic_complexity: 0
 readability: 5.133450000000002
@@ -28,5 +24,5 @@ readability: 4.065870000000001
 ----------
 outside
 cyclomatic_complexity: 5
-readability: -2.441960864964538
+readability: -2.4481438484205227
 ----------

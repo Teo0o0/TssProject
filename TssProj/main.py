@@ -2,6 +2,7 @@ import ast
 import pandas as pd
 import sys
 
+####### Code made with the help of ChatGPT #######
 def extract_functions_and_code_outside(file_path):
     # Read the content of the Python file
     with open(file_path, 'r') as file:
@@ -44,7 +45,7 @@ def extract_functions_and_code_outside(file_path):
 
 
 if len(sys.argv) != 2:
-    print("Usage: python program.py <file_path>")
+    print("Format: python main.py <file_path>")
     sys.exit(1)
 
 else:
@@ -62,14 +63,12 @@ for func_code in functions:
     print('----')
 
 
-
-
-
 import re
 
 def count_comments(code):
     comments = re.findall(r'#.*|(\'\'\'[\s\S]*?\'\'\'|\"\"\"[\s\S]*?\"\"\`)|```[\s\S]*?```', code)
     return len(comments)
+
 
 def cyclomatic_complexity(code):
     decision_points = len(re.findall(r"(if|elif|while|for)\s+.*:", code, re.IGNORECASE))
@@ -83,11 +82,9 @@ def count_indents(code):
     lines = code.split('\n')
     num_indents = 0
     for line in lines:
-        num_indents += line.count('    ')  # Assuming each indent is represented by four spaces
+        num_indents += line.count('    ')
     return num_indents
 
-def calculate_rounded_ratio(row):
-    return math.ceil(row['num_of_indents'] / row['num_of_lines'])
 
 def count_loops(code):
     loop_keywords = ['for', 'while', 'if']
@@ -147,36 +144,28 @@ with open(f'result_{file_name}.txt', 'w') as file:
 # from transformers import TFAutoModel, AutoTokenizer
 # import numpy as np
 #
-# # Load the saved model
 # loaded_model = tf.keras.models.load_model("codebert_model")
 #
-# # Load the tokenizer
 # tokenizer = AutoTokenizer.from_pretrained('codebert_tokenizer')
 #
-# # Function to preprocess input text
 # def preprocess_text(text):
-#     # Tokenize input text
 #     encoded = tokenizer(text, padding='max_length', truncation=True, max_length=128, return_tensors='tf')
-#     # Extract input_ids and attention_mask
 #     input_ids = encoded['input_ids']
 #     attention_mask = encoded['attention_mask']
 #     return input_ids, attention_mask
 #
-# # Function to predict using the loaded model
 # def predict(text):
-#     # Preprocess input text
 #     input_ids, attention_mask = preprocess_text(text)
-#     # Predict using the loaded model
 #     prediction = loaded_model.predict([input_ids, attention_mask])
 #     return prediction[0]
+# #
 #
-# # Example usage
-# input_text = "def add(a, b):\n    return a + b"
-# predicted_value = predict(input_text)
-# print("Predicted value:", predicted_value)
+# # input_text = "def add(a, b):\n    return a + b"
+# # predicted_value = predict(input_text)
+# # print("Predicted value:", predicted_value)
+# #
 #
-
-# df['difficulty'] = [predict(text) for text in functions]
+# # df['difficulty'] = [predict(text) for text in functions]
+# #
+# # print(df['difficulty'])
 #
-# print(df['difficulty'])
-

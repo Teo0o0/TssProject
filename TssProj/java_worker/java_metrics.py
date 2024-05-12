@@ -139,7 +139,6 @@ data = {
 df = pd.DataFrame(data)
 from joblib import load
 
-
 model = load('random_forest_model.joblib')
 X = df[['num_of_lines', 'code_length', 'comments', 'cyclomatic_complexity', 'indents', 'loop_count', 'identifiers']]
 df['readability'] = model.predict(X)

@@ -1,6 +1,6 @@
 import subprocess
 
-
+####### Code made with the help of ChatGPT #######
 def execute_script(script_path, *args):
     try:
         # Construct the command to run the script with arguments
@@ -32,7 +32,7 @@ def find_python_files(folder_path):
 
     return python_files
 
-folder_path = "C:\\Users\\diaco\\PycharmProjects\\TssProj"
+folder_path = ".//"
 script_path = "main.py"
 
 py_files = find_python_files(folder_path)

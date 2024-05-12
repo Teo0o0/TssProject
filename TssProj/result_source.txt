@@ -8,5 +8,5 @@ readability: 5.375252245254746
 ----------
 outside
 cyclomatic_complexity: 2
-readability: 5.414400109890109
+readability: 6.10033707792208
 ----------

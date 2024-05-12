@@ -1,6 +1,6 @@
 import subprocess
 
-
+####### Code made with the help of ChatGPT #######
 def execute_script(script_path, *args):
     try:
         # Construct the command to run the script with arguments
@@ -17,7 +17,7 @@ def execute_script(script_path, *args):
 import os
 
 
-folder_path = "C:\\Users\\diaco\\PycharmProjects\\TssProj\\java_worker\\"
+folder_path = ".//"
 script_path = "java_metrics.py"
 
 def find_java_files(directory):
@@ -28,4 +28,4 @@ def find_java_files(directory):
                 print(file_path)
                 execute_script(script_path, file_path)
 
-find_java_files("C:\\Users\\diaco\\PycharmProjects\\TssProj\\Tss_Test")
+find_java_files("..\\Tss_Test")
